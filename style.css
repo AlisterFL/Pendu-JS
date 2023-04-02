@@ -1,0 +1,48 @@
+* {
+    list-style-type: none;
+    text-decoration: none;
+
+}
+body{
+    max-width: 1400px;
+    margin: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.affichageMot {
+    display: flex;
+    height: 50px;
+    width: 100px;
+    visibility:  hidden;
+}
+
+.affichageMot div{
+    font-size: 35px;
+    padding: 5px;
+}
+
+.erreur {
+    display: flex;
+    visibility: hidden;
+}
+p{
+    padding : 2px 5px;
+    background-color: rgb(205, 60, 60);
+}
+
+.afficherEssai {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    visibility: hidden;
+}
+.afficherEssai input, button{
+    width: 150px;
+    margin: auto;
+}
+
